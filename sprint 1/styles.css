@@ -1,0 +1,99 @@
+/* Config CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body, button, textarea, input{
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: #F3F5FC;
+  color: #0A3871;
+  display: grid;
+  grid-template-columns: 120px 1fr 400px;
+  gap: 8rem;
+  padding: 4rem;
+}
+
+/* Style Main */
+form #input-text{
+  resize: none;
+  margin-top: 12.8rem;
+  width: 100%;
+  height: 430px;
+  font-size: 3.2rem;
+  color: #0A3871;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+form #input-text::placeholder{
+  color: #0A3871;
+}
+
+form p{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #495057;
+}
+
+form .contain-buttons{
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  width: 100%;
+}
+
+form #encrypt{
+  flex: 1;
+  padding: 2.4rem;
+  background-color: #0A3871;
+  border-radius: 24px;
+  border: none;
+  color: #FFFFFF;
+}
+
+form #decrypt{
+  flex: 1;
+  padding: 2.4rem;
+  background-color: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+}
+
+/* Style Aside */
+aside{
+  background-color: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
+  border-radius: 32px;
+  padding: 3.2rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+aside strong{
+  margin: 3.5rem 0rem 1.6rem 0rem;
+  color: #343A40;
+  font-size: 2.4rem;
+}
+
+aside span{
+  color: #495057;
+}
