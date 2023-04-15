@@ -97,3 +97,30 @@ aside strong{
 aside span{
   color: #495057;
 }
+
+/* Tela Versão Tablet */
+@media(max-width: 768px){
+  #logo{
+    margin-left: -4.4rem;
+    margin-top: 3.3rem;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+
+  main{
+    margin-top: -6rem;
+  }
+
+  aside strong{
+    margin: 0rem 0rem 1.6rem 0rem;
+    
+  }
+
+  aside img{
+    display: none;
+  }
+}
