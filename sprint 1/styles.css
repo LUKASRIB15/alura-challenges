@@ -124,3 +124,14 @@ aside span{
     display: none;
   }
 }
+
+/* Tela Versão Mobile (Celular) */
+@media(max-width: 465px){
+  form .contain-buttons{
+    flex-direction: column;
+  }
+
+  form button{
+    width: 100%;
+  }
+}
