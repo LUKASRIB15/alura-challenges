@@ -98,8 +98,16 @@ aside span{
   color: #495057;
 }
 
+/* Responsive Screnn */
+@media(max-width: 1070px){
+  body{
+    gap: 1.5rem;
+    padding-left: 0rem;
+  }
+}
+
 /* Tela Versão Tablet */
-@media(max-width: 768px){
+@media(max-width: 900px){
   #logo{
     margin-left: -4.4rem;
     margin-top: 3.3rem;
@@ -109,6 +117,7 @@ aside span{
     display: flex;
     flex-direction: column;
     gap: 6.4rem;
+    padding: 4rem;
   }
 
   main{
