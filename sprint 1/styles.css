@@ -35,6 +35,7 @@ form #input-text{
   background-color: transparent;
   border: none;
   outline: none;
+  line-height: 150%;
 }
 
 form #input-text::placeholder{
@@ -98,6 +99,28 @@ aside span{
   color: #495057;
 }
 
+aside #input-text-copy{
+  flex: 1;
+  resize: none;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #495057;
+  font-size: 2.4rem;
+  line-height: 150%;
+}
+
+aside #button-copy{
+  background-color: transparent;
+  border: 1px solid #0A3871;
+  color: #0A3871;
+  border-radius: 24px;
+  padding: 2.4rem;
+  width: 100%;
+  margin-top: 3.2rem;
+}
+
 /* Responsive Screnn */
 @media(max-width: 1070px){
   body{
@@ -132,6 +155,7 @@ aside span{
   aside img{
     display: none;
   }
+
 }
 
 /* Tela Versão Mobile (Celular) */
