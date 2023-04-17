@@ -101,14 +101,12 @@ aside span{
 
 aside #input-text-copy{
   flex: 1;
-  resize: none;
   width: 100%;
-  background: transparent;
-  border: none;
-  outline: none;
   color: #495057;
   font-size: 2.4rem;
   line-height: 150%;
+  text-align: start;
+  word-wrap: break-word;
 }
 
 aside #button-copy{
