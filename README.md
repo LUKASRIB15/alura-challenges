@@ -9,7 +9,7 @@ A página tem a função de pegar um texto digitado e criptografar. Caso o texto
 <br>
 
 # 🚀 Tecnologias
-Projetos desenvolvidos com as seguintes tecnologias:
+Projeto desenvolvido com as seguintes tecnologias:
 <ul>
   <li>HTML e CSS</li>
   <li>JavaScript</li>
