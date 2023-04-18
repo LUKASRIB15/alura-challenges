@@ -56,3 +56,20 @@ function CreateElementsAndAtributtes(){
   textCopyArea.appendChild(buttonCopy)
 }
 
+// Copia o valor da Div inputText
+buttonCopy.addEventListener('click', function(){
+  var copyText = document.createRange();
+  copyText.selectNode(inputTextCopy)
+  window.getSelection().removeAllRanges()
+  window.getSelection().addRange(copyText)
+  document.execCommand("copy")
+  alert("Texto copiado!")
+  window.getSelection().removeAllRanges()
+})
+
+// Tira o \n no final da linha do textarea
+textareaContent.addEventListener("change", function(){
+  var text = this.value.replace(/\n/g, '')
+  this.value = text
+})
+
