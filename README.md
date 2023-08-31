@@ -1,4 +1,8 @@
-<h1 align="center">Alura Challenge - Sprint 1</h1>
+<h1 align="center">Alura Challenge</h1>
+
+Nesse repositório será guardado todos os meus projetos (challenges) desenvolvidos durante meu aprendizado com o Alura One. Nesse curso que Alura está disponibilizando, estarei realizando a especialização em Backend com Java e Spring Boot.
+
+# Sprint 1
 
 ![Alt text](sprint%201/assets/sprint1%20-%20alura.png)
 
@@ -8,7 +12,7 @@ A página tem a função de pegar um texto digitado e criptografar. Caso o texto
 
 <br>
 
-# 🚀 Tecnologias
+## 🚀 Tecnologias
 Projeto desenvolvido com as seguintes tecnologias:
 <ul>
   <li>HTML e CSS</li>
@@ -20,7 +24,7 @@ Projeto desenvolvido com as seguintes tecnologias:
 
 <br>
 
-# 💻 Principais issues
+## 💻 Principais issues
 - Desenvolvimento Tela Desktop
 - Desenvolvimento Tela Mobile (Tablet/Celular)
 - Página Resposiva
@@ -30,7 +34,7 @@ Projeto desenvolvido com as seguintes tecnologias:
 
 <br>
 
-# 👨‍💻 CryptoJS
+## 👨‍💻 CryptoJS
 CryptoJs é uma biblioteca de criptografia em JavaScript que oferece implementações de diversos algoritmos criptográficos como o AES que foi utilizado nesse projeto. Ele pode ser usado tanto para criptografar quanto para descriptografar dados, gerar hashes e entre outras utilidades. 
 
 Para implementar no HTML:
@@ -52,3 +56,16 @@ const textEncrypt = CryptoJS.AES.encrypt(message, key, {iv:iv}).toString();
 // Para descriptografar
 const textDecrypt = CryptoJS.AES.decrypt(textEncrypted, key, {iv:iv}).toString(CryptoJS.enc.Utf8);
 ```
+
+# Conversor de Moedas
+
+Nesse projeto inicial eu estou utilizando as ideias básicas da programação orientada a objeto em Java para desenvolver um conversor de moedas. Nesse projeto pude utilizar as principais técnicas e aprender uma nova biblioteca muito utilizada no mundo Java.
+
+## 🚀 Conhecimentos adquiridos
+<ul>
+  <li>Atributos e métodos</li>
+  <li>Encapsulamento</li>
+  <li>Polimorfismo</li>
+  <li>JOptionPane do java.swing</li>
+  <li>java.lang</li>
+</ul> 
